@@ -1,0 +1,72 @@
+<svg width="720" height="900" viewBox="0 0 720 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of an elegant woman in an evening gown">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#3A1730"/>
+      <stop offset="1" stop-color="#220E1A"/>
+    </linearGradient>
+    <linearGradient id="gown" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#E9C4CC"/>
+      <stop offset="0.55" stop-color="#C77B96"/>
+      <stop offset="1" stop-color="#7E2A52"/>
+    </linearGradient>
+    <linearGradient id="goldh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6C77E"/>
+      <stop offset="1" stop-color="#B98E42"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.32" r="0.6">
+      <stop offset="0" stop-color="#5A2545" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#5A2545" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="900" fill="url(#bg)"/>
+  <rect width="720" height="900" fill="url(#halo)"/>
+
+  <!-- thin gold frame -->
+  <rect x="22" y="22" width="676" height="856" fill="none" stroke="url(#goldh)" stroke-width="1.2" opacity="0.55"/>
+
+  <!-- decorative arcs -->
+  <circle cx="360" cy="300" r="250" fill="none" stroke="url(#goldh)" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="360" cy="300" r="210" fill="none" stroke="url(#goldh)" stroke-width="0.8" opacity="0.18"/>
+
+  <!-- figure -->
+  <g transform="translate(360,200)">
+    <!-- hair back -->
+    <path d="M-46 -2 C-66 60 -56 140 -36 176 C-50 96 -48 30 -46 -2 Z" fill="#2A1A12"/>
+    <path d="M46 -2 C66 60 56 140 36 176 C50 96 48 30 46 -2 Z" fill="#2A1A12"/>
+    <!-- head -->
+    <ellipse cx="0" cy="0" rx="40" ry="50" fill="#F0D7C4"/>
+    <!-- hair top -->
+    <path d="M-44 -6 C-52 -64 52 -64 44 -6 C44 -36 28 -54 0 -54 C-28 -54 -44 -36 -44 -6 Z" fill="#2A1A12"/>
+    <!-- neck -->
+    <path d="M-12 42 L12 42 L12 70 C12 80 -12 80 -12 70 Z" fill="#EAC9B4"/>
+
+    <!-- arms (behind gown) -->
+    <path d="M-66 104 C-104 150 -116 250 -110 332 C-100 334 -92 330 -90 322 C-94 250 -82 176 -50 140 Z" fill="#B05E7E"/>
+    <path d="M66 104 C104 150 116 250 110 332 C100 334 92 330 90 322 C94 250 82 176 50 140 Z" fill="#B05E7E"/>
+
+    <!-- full gown: shoulders to hem -->
+    <path d="M-66 104 C-30 80 30 80 66 104
+             C58 150 60 200 70 270
+             C92 420 120 520 160 580
+             C70 624 -70 624 -160 580
+             C-120 520 -92 420 -70 270
+             C-60 200 -58 150 -66 104 Z" fill="url(#gown)"/>
+    <!-- neckline shadow -->
+    <path d="M-20 96 C-10 120 10 120 20 96 C12 84 -12 84 -20 96 Z" fill="#7E2A52" opacity="0.5"/>
+    <!-- gown sheen -->
+    <path d="M-6 150 C0 320 16 470 48 574 C22 596 -18 596 -42 576 C-26 430 -24 290 -22 152 Z" fill="#FFFFFF" opacity="0.14"/>
+    <!-- waist sash -->
+    <path d="M-66 246 C-26 266 26 266 66 246 L70 272 C26 296 -26 296 -70 272 Z" fill="url(#goldh)" opacity="0.95"/>
+  </g>
+
+  <!-- floating accessories -->
+  <g opacity="0.9">
+    <circle cx="150" cy="470" r="5" fill="url(#goldh)"/>
+    <circle cx="150" cy="470" r="14" fill="none" stroke="url(#goldh)" stroke-width="1.2"/>
+    <circle cx="585" cy="360" r="4" fill="url(#goldh)"/>
+    <circle cx="585" cy="360" r="11" fill="none" stroke="url(#goldh)" stroke-width="1.2"/>
+    <path d="M120 640 l6 12 13 2 -9 9 2 13 -12 -6 -12 6 2 -13 -9 -9 13 -2 z" fill="url(#goldh)" opacity="0.85"/>
+    <path d="M600 600 l5 10 11 2 -8 8 2 11 -10 -5 -10 5 2 -11 -8 -8 11 -2 z" fill="url(#goldh)" opacity="0.7"/>
+  </g>
+</svg>

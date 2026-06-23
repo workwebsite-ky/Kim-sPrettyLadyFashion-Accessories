@@ -1,0 +1,17 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HATS &amp; MORE">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4E7DD"/><stop offset="1" stop-color="#BFC6AE"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect x="14" y="14" width="372" height="372" rx="2" fill="none" stroke="#B98E42" stroke-width="1" opacity="0.5"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#B98E42" stroke-width="0.8" opacity="0.18"/>
+  <g fill="none" stroke="#5A1F3D" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="200" cy="245" rx="85" ry="22"/>
+    <path d="M155 245 C155 180 245 180 245 245"/>
+    <path d="M155 230 C175 240 225 240 245 230"/>
+  </g>
+  <text x="200" y="340" font-family="Jost, sans-serif" font-size="15" letter-spacing="3"
+        text-anchor="middle" fill="#5A1F3D">HATS &amp; MORE</text>
+</svg>

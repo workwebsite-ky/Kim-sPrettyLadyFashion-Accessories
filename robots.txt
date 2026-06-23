@@ -1,0 +1,6 @@
+# robots.txt — Kim's Pretty Lady Fashion & Accessories
+User-agent: *
+Allow: /
+
+# Replace with your live domain once the site is hosted:
+Sitemap: https://www.YOURDOMAIN.com/sitemap.xml

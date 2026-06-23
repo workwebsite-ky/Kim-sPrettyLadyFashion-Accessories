@@ -1,0 +1,17 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="STATEMENT BAG">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAD7E0"/><stop offset="1" stop-color="#C99BB4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect x="14" y="14" width="372" height="372" rx="2" fill="none" stroke="#B98E42" stroke-width="1" opacity="0.5"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#B98E42" stroke-width="0.8" opacity="0.18"/>
+  <g fill="none" stroke="#5A1F3D" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M160 180 L165 285 L235 285 L240 180 Z"/>
+    <path d="M178 180 C178 150 222 150 222 180"/>
+    <circle cx="200" cy="225" r="9"/>
+  </g>
+  <text x="200" y="340" font-family="Jost, sans-serif" font-size="15" letter-spacing="3"
+        text-anchor="middle" fill="#5A1F3D">STATEMENT BAG</text>
+</svg>

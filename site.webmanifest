@@ -1,0 +1,12 @@
+{
+  "name": "Kim's Pretty Lady Fashion & Accessories",
+  "short_name": "Kim's Pretty Lady",
+  "description": "Women's fashion & accessories boutique in Louisville, MS.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#FAF3EC",
+  "theme_color": "#2D1322",
+  "icons": [
+    { "src": "images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

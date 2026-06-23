@@ -1,0 +1,17 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FOOTWEAR">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3D9D2"/><stop offset="1" stop-color="#D9A79C"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect x="14" y="14" width="372" height="372" rx="2" fill="none" stroke="#B98E42" stroke-width="1" opacity="0.5"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#B98E42" stroke-width="0.8" opacity="0.18"/>
+  <g fill="none" stroke="#5A1F3D" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 195 C185 185 230 190 255 200 C262 215 250 225 230 225 L175 225 C158 225 148 210 150 195 Z"/>
+    <path d="M230 225 L245 270"/>
+    <path d="M175 225 L172 248"/>
+  </g>
+  <text x="200" y="340" font-family="Jost, sans-serif" font-size="15" letter-spacing="3"
+        text-anchor="middle" fill="#5A1F3D">FOOTWEAR</text>
+</svg>
